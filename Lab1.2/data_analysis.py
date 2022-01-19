@@ -13,7 +13,7 @@ activity = list(map(getvalue, sheet['D'][1:]))
 
 #График
 pyplot.plot(years, temperature, label="Относит. Темпрература")
-pyplot.plot(years, activity, Label="Активность Солнца")
+pyplot.plot(years, activity, label="Активность Солнца")
 
 #Показ графика
 pyplot.xlabel('Годы')
