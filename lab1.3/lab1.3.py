@@ -15,6 +15,7 @@ for r in result:
     for r2 in r[3]:
             print(r2)
 
+
 result2= nextCmd(SnmpEngine(),
               CommunityData('public', mpModel=0),
               UdpTransportTarget(('10.31.70.107', 161)),
